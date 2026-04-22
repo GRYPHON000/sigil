@@ -1,0 +1,80 @@
+sigil Commercial License
+========================
+
+Copyright (C) 2026 [Gaurish Bamrari]
+Contact: gaurishb.dev@gmail.com
+
+---
+
+OPEN SOURCE USE
+---------------
+sigil is free software under the GNU General Public License v3 (GPL v3).
+If your project is open source and GPL-compatible, you may use sigil
+at no cost under the terms of the GPL v3 (see LICENSE).
+
+---
+
+COMMERCIAL USE
+--------------
+A commercial license is required if you:
+
+1. Use sigil in a proprietary or closed-source product
+2. Distribute sigil as part of a commercial offering
+3. Use sigil in SaaS, PaaS, or cloud services without releasing
+   your source code under GPL v3
+4. Use sigil in financial infrastructure, exchanges, or wallets
+   without open sourcing your integration
+
+---
+
+COMMERCIAL LICENSE TIERS
+-------------------------
+
+Individual / Startup (< $1M annual revenue)
+  Price: Contact for pricing
+  Includes: Use in one commercial product, gaurishb.dev@gmail.com support
+
+Business ($1M - $10M annual revenue)
+  Price: Contact for pricing
+  Includes: Use in up to 3 products, priority support, security advisories
+
+Enterprise (> $10M annual revenue)
+  Price: Contact for pricing
+  Includes: Unlimited products, dedicated support, security disclosure
+  priority, consulting hours
+
+---
+
+HOW TO OBTAIN A COMMERCIAL LICENSE
+-----------------------------------
+Email:gaurishb.dev@gmail.com
+Subject: sigil Commercial License Inquiry
+
+Include:
+- Company name
+- Use case description
+- Estimated annual revenue
+
+---
+
+WHY THIS LICENSE MODEL
+----------------------
+sigil is maintained as open source infrastructure for the blockchain
+ecosystem. Commercial licensing enables sustainable maintenance —
+ensuring security patches, algorithm updates, and long-term support
+for companies that depend on sigil in production.
+
+Companies that depend on sigil's security are companies that need
+sigil to keep being maintained. This license makes that sustainable.
+
+---
+
+CONTRIBUTORS
+------------
+Contributors to sigil retain copyright of their contributions.
+By contributing to sigil, contributors grant Gaurish Bamrari the right
+to include their contributions under both GPL v3 and commercial licenses.
+This is standard practice for dual-licensed open source projects
+(examples: Qt, MySQL, MongoDB pre-SSPL).
+
+See CONTRIBUTING.md for the full contributor agreement.

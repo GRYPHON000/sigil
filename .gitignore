@@ -1,0 +1,48 @@
+# Build outputs
+*.o
+*.a
+*.so
+*.out
+target/
+build/
+
+# C build artifacts
+core/*.o
+core/test_*
+core/sigil_*
+!core/sigil_sign.c
+!core/sigil_migrate.c
+
+# Rust
+target/
+Cargo.lock
+
+# Node / ethers.js
+node_modules/
+.env
+.env.local
+
+# Keys — NEVER commit real keys
+*.key
+*.pem
+*.p12
+keypair/
+migration_proof.json
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+
+# Hardhat
+cache/
+artifacts/
+deployments/
+
+# Benchmarks output
+*.bench
+
+# Wasm build
+*.wasm
+*.js.map
