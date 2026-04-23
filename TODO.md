@@ -10,27 +10,25 @@ Never delete old entries — they become your progress log.
 ## Day 1 — April 23, 2026
 
 ### Learn (6 hours)
-- [ ] Install GCC, make, valgrind, gdb, git on Arch
-- [ ] Read "Learn C the Hard Way" Exercise 1-3
-- [ ] Understand: variables, types, printf, compilation
-- [ ] Read: what is a pointer (just read, don't code yet)
+- [x] Install GCC, make, valgrind, gdb, git on Arch
+- [x] Read "Learn C the Hard Way" Exercise 1-3
+- [x] Understand: variables, types, printf, compilation
+- [x] Read: what is a pointer (just read, don't code yet)
 
 ### Build (4 hours)
-- [ ] Verify all tools installed: gcc --version, git --version
-- [ ] Create folder structure: core/, src/, contracts/, tests/, docs/
-- [ ] Write core/pqc_rand.c skeleton (just the function signature and a comment)
-- [ ] Write your first C file: hello_sigil.c that prints "sigil — day 1"
-- [ ] Compile it: gcc -o hello hello_sigil.c
-- [ ] Commit: git add . && git commit -m "day 1: tools installed, hello world"
+- [x] Verify all tools installed: gcc --version, git --version
+- [x] Create folder structure: core/, src/, contracts/, tests/, docs/
+- [x] Write core/pqc_rand.c skeleton (just the function signature and a comment)
+- [x] Commit: git add . && git commit -m "day 1: tools installed, hello world"
 
 ### Theory (2 hours — PDF 03)
-- [ ] Day 1 theory: integers, primes, why they matter for crypto
-- [ ] Exercise: Sieve of Eratosthenes in Python
-- [ ] Resource: Khan Academy Number Theory
+- [x] Day 1 theory: integers, primes, why they matter for crypto
+- [x] Exercise: Sieve of Eratosthenes in Python
+-  Resource: Khan Academy Number Theory
 
 ### LeetCode (1 hour)
-- [ ] LC #1929 — Concatenation of Array
-- [ ] Read about Big O notation
+- [x] LC #1929 — Concatenation of Array
+- [x] Read about Big O notation
 
 ---
 
