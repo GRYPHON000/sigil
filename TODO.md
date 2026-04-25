@@ -117,6 +117,30 @@ Night — Commit (1 hour)
  git commit -m "day 2: uint8_t pointers stack heap pqc_rand.c 5 tests passing"
  git push
 
+## DAY 3
+LEARN (4 hours):
+
+Bitwise operators: &, |, ^, ~, <<, >>
+Understand each at bit level with paper examples first
+
+BUILD (3 hours):
+
+Implement core/xor_cipher.c — encrypts any file using XOR with a key
+Command: sigil xor --in file --key key.bin --out file.enc
+
+LEETCODE:
+
+LC #191 Number of 1 Bits
+DSA: Stack vs Heap
+
+Crypto Theory — 
+
+GCD and Extended Euclidean Algorithm
+How modular inverses are computed in RSA and ECDSA
+Exercise: Implement Extended Euclidean from scratch in Python
+Find modular inverse of 17 mod 3120
+Resource: Wikipedia Extended Euclidean — trace through the example
+
 
 
 ---
