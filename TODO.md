@@ -142,7 +142,44 @@ Find modular inverse of 17 mod 3120
 Resource: Wikipedia Extended Euclidean — trace through the example
 
 DONE^^^^
+DAY 4
+Learn (3 hours)
 
+ Learn C the Hard Way Exercise 11,12,13,14.
+ Read: endianness — big-endian vs little-endian
+ Read: what memcpy does and when to use it
+ Read: pointer casts in C — (uint32_t *)ptr
+
+DSA Catchup from Day 3 (1 hour)
+
+ Read: Stack vs Heap — draw it on paper
+ Stack: automatic, fast, limited, disappears when function returns
+ Heap: manual, slower, large, lives until you free it
+
+Build (3 hours)
+
+ Finish xor_cipher.c — add NULL checks and return value
+ Create core/xor_cipher.h — header guard, KEY_LEN define, function declaration
+ Create tests/test_xor_cipher.c — encrypt then decrypt test
+ Compile and run test
+ Implement core/utils.c:
+
+ u32_to_be_bytes() — write uint32_t as 4 big-endian bytes
+ u32_from_be_bytes() — read 4 bytes as uint32_t big-endian
+ hex_encode() — convert bytes to hex string
+ hex_decode() — convert hex string to bytes
+
+
+ Create core/utils.h with declarations
+ Write tests for utils functions
+ Compile and run all tests
+
+Theory — PDF 03 Day 4 (2 hours)
+
+ Read: Fermat's Little Theorem — a^(p-1) ≡ 1 (mod p)
+ Read: Euler's Totient Function φ(n)
+ Exercise: compute φ(n) for n = 15, 21, 77, 100
+ Exercise: verify Fermat's Little Theorem:
 ---
 
 ## WEEK 1 GOAL
