@@ -15,6 +15,6 @@ int sigil_rand_bytes(uint8_t *buff, size_t len) {
     uint8_t byte_size=fread(buff,1,len,f);
     fclose(f);
     if(byte_size!=len)return -1;
-    
+    f=NULL;
     return 0;
 }
